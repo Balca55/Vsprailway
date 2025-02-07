@@ -1,0 +1,12 @@
+{
+  "services": [
+    {
+      "name": "shellinabox",
+      "type": "web",
+      "env": "docker",
+      "dockerfilePath": "./Dockerfile",
+      "port": 10000,
+      "autoDeploy": true
+    }
+  ]
+}
